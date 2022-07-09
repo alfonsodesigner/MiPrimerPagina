@@ -7,74 +7,91 @@
         <meta name="description" content="Esta es mi primer pagina web"/>
         <meta name="author" content="Javier"/>
         <meta name="keywords" content="Mi primer titulo, mi primer pagina, pagina web"/>
+        <link rel="stylesheet" href="estilos.css">
+        <style>
+           
+
+
+        </style>
+
+
       
 
     </head>
 
     <body>
-        <header>
-            <h1>Mi Blog</h1>
-        </header>
-        
-        <nav>
 
-           <ul>
-                <li>Principal</li>
-                <li>Ayuda</li>
-                <li>Contacto</li>
-           </ul> 
+        <div class="agrupar">
 
-        </nav>
-
-        <section>
-            <article>
-                <hgroup>
-                    <h1>Titulo del primer articulo</h1>
-                    <h2>Subtitulo del primer articulo</h2>
-                </hgroup>
-                
-                <time datetime="12-10-2018">Publicado el 12-10-2018</time>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est illum a quis neque aliquam eum deleniti ratione enim magni, molestiae doloribus natus numquam vel, id sint consequuntur, ipsam eius!</p>
-                <img scr="a.jpg"/>
-                <footer>
-                    <p>Comentarios (10)</p>
-                </footer>
-                
-                <address>
-                    <a href="https://www.youtube.com/watch?v=EZZp43AwAEE"> Video de musica </a>
-                </address>
-                
-            </article>
-
-            <article>
-                <hgroup>
-                <h1>Titulo del segundo articulo</h1>
-                <h2>Subtitulo del segundo articulo</h2>
-                </hgroup>
-                <time datetime="12-10-2018">Publicado el 12-10-2018</time>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptatem tempora mollitia adipisci cupiditate ad ipsum dolor perspiciatis beatae minima quis deserunt, itaque natus blanditiis soluta nihil porro dolorum debitis!</p>
-                <footer>
-                    <p>Comentarios (1)</p>
-                </footer>
-            </article>
-        </section>
-
-        <aside>
-            <blockquote>
-                Mensaje 1
-
-            </blockquote>
-
-            <blockquote>
-                Mensaje 2
-            </blockquote>
-
+            <header class="cabecera">
+                <h1>Mi Blog</h1>
+            </header>
             
-        </aside>
+            <nav class="menu">
+    
+               <ul>
+                    <li>Principal</li>
+                    <li>Ayuda</li>
+                    <li>Contacto</li>
+               </ul> 
+    
+            </nav>
+    
+            <section class="seccion">
+                <article>
+                    <hgroup>
+                        <h1>Titulo del primer articulo</h1>
+                        <h2>Subtitulo del primer articulo</h2>
+                    </hgroup>
+                    
+                    <time datetime="12-10-2018">Publicado el 12-10-2018</time>
 
-        <footer>
-            Derechos Reservados 2010-2018
-        </footer>
+                    <img scr="a.png"/>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est illum a quis neque aliquam eum deleniti ratione enim magni, molestiae doloribus natus numquam vel, id sint consequuntur, ipsam eius!</p>
+                    
+                    <footer>
+                        <p>Comentarios (10)</p>
+                    </footer>
+                    
+                    <address>
+                        <a href="https://www.youtube.com/watch?v=EZZp43AwAEE"> Video de musica </a>
+                    </address>
+                    
+                </article>
+    
+                <article>
+                    <hgroup>
+                    <h1>Titulo del segundo articulo</h1>
+                    <h2>Subtitulo del segundo articulo</h2>
+                    </hgroup>
+                    <time datetime="12-10-2018">Publicado el 12-10-2018</time>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias voluptatem tempora mollitia adipisci cupiditate ad ipsum dolor perspiciatis beatae minima quis deserunt, itaque natus blanditiis soluta nihil porro dolorum debitis!</p>
+                    <footer>
+                        <p>Comentarios (1)</p>
+                    </footer>
+                </article>
+            </section>
+    
+            <aside class="columna">
+                <blockquote>
+                    Mensaje 1
+    
+                </blockquote>
+    
+                <blockquote>
+                    Mensaje 2
+                </blockquote>
+    
+                
+            </aside>
+    
+            <footer class="pie">
+                Derechos Reservados 2010-2018
+            </footer>
+            
+           
+        </div>
         
 
     </body>
